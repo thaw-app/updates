@@ -310,6 +310,7 @@
             <sparkle:version>61</sparkle:version>
             <sparkle:shortVersionString>2.1.0-beta.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:maximumSystemVersion>26.99</sparkle:maximumSystemVersion>
             <description><![CDATA[<p><strong>macOS 26 only · Build 61</strong></p>
 <div class="markdown-alert markdown-alert-important"><p class="markdown-alert-title"><svg data-component="Octicon" class="octicon octicon-report mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Important</p><p><strong>This is the last beta before the release candidate.</strong></p>
 <p>The next 2.1.0 build is the release candidate. If something looks wrong in this one, please report it now.</p>
@@ -347,6 +348,7 @@
             <sparkle:version>60</sparkle:version>
             <sparkle:shortVersionString>2.1.0-beta.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:maximumSystemVersion>26.99</sparkle:maximumSystemVersion>
             <enclosure url="https://github.com/thaw-app/updates/releases/download/2.1.0-beta.4/Thaw_2.1.0-beta.4.zip" length="13689936" type="application/octet-stream" sparkle:edSignature="MpNLI4+lXU2DOEQFV1jA0H7p7pa3U6qxTSHsHfDgqt1E7FeqlJOZKLXz3pbJObkrJPPLPi1azFMRHVJQmdExBA=="/>
         </item>
         <item>
@@ -357,6 +359,7 @@
             <sparkle:version>58</sparkle:version>
             <sparkle:shortVersionString>2.1.0-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:maximumSystemVersion>26.99</sparkle:maximumSystemVersion>
             <enclosure url="https://github.com/thaw-app/updates/releases/download/2.1.0-beta.3/Thaw_2.1.0-beta.3.zip" length="13662026" type="application/octet-stream" sparkle:edSignature="k9kmSSIqTNHW879y977rSFEXr+ch5KzmItc00l/bzXdL4lRX4x0LENAO+QdmOayX3JxOaxkp/p2NXKn/sdTdBw=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.2/Thaw58-57.delta" sparkle:deltaFrom="57" length="6763446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="opSxGVHaKf/KQkndEx1L12xY1JCeRc9RDoH4w6CfdxKItwsEgCSUBXlV/+9Wcp3Lg35vwwzWSFOBkR4qWLT4AA=="/>
@@ -369,6 +372,7 @@
             <sparkle:version>56</sparkle:version>
             <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:maximumSystemVersion>26.99</sparkle:maximumSystemVersion>
             <enclosure url="https://github.com/thaw-app/updates/releases/download/2.0.1/Thaw_2.0.1.zip" length="11256807" type="application/octet-stream" sparkle:edSignature="R1BZhQqvkV2P/wUVpiRqvNB6zSiRNoWJ+/+o6EL3zaj9khETNXHrw/bUqZaMDZMH3orVRgnf3isK0N+4OJ1hCQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/thaw-app/updates/releases/download/2.1.0-beta.2/Thaw56-55.delta" sparkle:deltaFrom="55" length="22082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mv6xHwI8caZD16uLVhgh4BTWq9Wa+8BCL6rmLfKhdb9sma29cJLgf6Hgesol75iG8nb2Do0ea+vhUxuvNRqBCA=="/>
@@ -381,6 +385,7 @@
             <sparkle:version>53</sparkle:version>
             <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:maximumSystemVersion>26.99</sparkle:maximumSystemVersion>
             <enclosure url="https://github.com/thaw-app/updates/releases/download/2.0.0/Thaw_2.0.0.zip" length="11212081" type="application/octet-stream" sparkle:edSignature="3XsOc2enEvMbqSVTMn4P5mb83wODZLdG4ronOxqfSYrD8GDyqEY2dl2vN9BAYOLQa2XcMf6caQim3buCewOsDA=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/thaw-app/updates/releases/download/2.0.1-rc.2/Thaw53-52.delta" sparkle:deltaFrom="52" length="1196766" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Htilg1MUV8NPGkxyqd82E6KKMtNRfh3pReGNEAaWJGnpzvUzIUr3aivz+6H2KdlWIoR4ewjbpEwsVLG8cK84BQ=="/>
