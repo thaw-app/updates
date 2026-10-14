@@ -596,11 +596,123 @@
 <li>crazyJosh and xX-Mordran-Xx on Discord, the notched display and What Thaw sees</li>
 <li>Kristian Kruse on Discord, hiding Wi-Fi and Bluetooth</li>
 <li>Probert on Discord, Bluetooth, Wi-Fi and Fast User Switching</li>
-</ul>]]></description><enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.7/Thaw_3.0.0-alpha.7.zip" length="8509831" type="application/octet-stream" sparkle:edSignature="+cNM0HLbdVpJiZNFlmAklQtdk9BsHKHfMysiWrwdxtEFo3cYNztJBOxzp5zJIoS2XTX5au38T1+BN/J6OnkMDw=="/>
+</ul>]]></description>
+            <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.7/Thaw_3.0.0-alpha.7.zip" length="8509831" type="application/octet-stream" sparkle:edSignature="+cNM0HLbdVpJiZNFlmAklQtdk9BsHKHfMysiWrwdxtEFo3cYNztJBOxzp5zJIoS2XTX5au38T1+BN/J6OnkMDw=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.7/Thaw108-106.delta" sparkle:deltaFrom="106" length="2708562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lRLf7JFWiODo/Dcv79Tubv1KFJ6mVHWjMe5X+TjO1CEzoj7TK8I6qxB61rsG9Q7imP5nSEognwFXAyAmoxnUDQ=="/>
                 <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.7/Thaw108-105.delta" sparkle:deltaFrom="105" length="3078878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mQVDrWVoPW1wc/fPh7jW51iFnaRk27rQvbi+zP7d/UkrSOkYCjZCpHZei+YDxUeiuRiU8Gl53iH5ZdP1+qg7DA=="/>
                 <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.7/Thaw108-104.delta" sparkle:deltaFrom="104" length="3163258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YMxG1Z62AfrMPJOU6ziVFep+6YsHpsTId1FRq03jN2pubCvkTCLaCJjxiIK9jzkjlOIa9VQTD6rvhnkppKD1Bg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.1.0</title>
+            <pubDate>Wed, 14 Oct 2026 23:24:07 +0000</pubDate>
+            <link>https://github.com/thaw-app/Thaw/releases/tag/2.1.0</link>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:maximumSystemVersion>26.99</sparkle:maximumSystemVersion>
+            <description><![CDATA[<p><strong>macOS 26 only</strong></p>
+<p>Hey, we have a website! The docs, the changelog and the roadmap are at <a href="https://www.getthaw.app" rel="nofollow">getthaw.app</a>.</p>
+<p>The feature release for macOS 26 that 2.0.0 promised. Items can move on their own when something happens, related items stay together in groups, Zen Mode closes the whole menu bar with one hotkey, and Simple Mode fits Settings on one page. Screen Recording is now optional. Six betas led here, and most of what changed after the first one came from your reports. The beta entries below have the detail.</p>
+<p>After you update:</p>
+<ol>
+<li>Profiles, saved layouts and hotkeys carry over. There is nothing to redo.</li>
+<li>Trigger conditions other than battery and power stay off until you switch them on under <strong>Trigger Sources</strong>.</li>
+<li>If you'd rather Thaw never restarts apps for a spacing change, set <strong>When applying spacing</strong> to <strong>Wait until next restart</strong> in Settings &gt; Displays.</li>
+<li>With Homebrew, use the <code class="notranslate">thaw</code> cask. <code class="notranslate">thaw@beta</code> is Thaw 3, which needs macOS 27. <a href="https://github.com/thaw-app/Thaw/issues/1221" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1221/hovercard">#1221</a></li>
+<li>If something looks wrong, <a href="https://github.com/thaw-app/Thaw/issues">open an issue</a>.</li>
+</ol>
+<h3>New</h3>
+<h4>Triggers</h4>
+<ul>
+<li><strong>Items move when something happens.</strong> A trigger can react to battery level, power, an app, the network, a VPN, Wi-Fi, Bluetooth, an audio device, a display, a time, a Focus, a place, Energy Mode, heat, the camera or microphone, a script, or another icon changing. Conditions can be combined, and an action can be reversed. By <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/alvst/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/alvst">@alvst</a> in <a href="https://github.com/thaw-app/Thaw/issues/735" data-hovercard-type="pull_request" data-hovercard-url="/thaw-app/Thaw/pull/735/hovercard">#735</a> and <a href="https://github.com/thaw-app/Thaw/issues/965" data-hovercard-type="pull_request" data-hovercard-url="/thaw-app/Thaw/pull/965/hovercard">#965</a>.</li>
+<li><strong>Icon-change triggers can be strict or loose.</strong> Loose ignores tiny redraws, strict reacts to any change, and the editor shows the icon it compares against. <a href="https://github.com/thaw-app/Thaw/issues/1006" data-hovercard-type="pull_request" data-hovercard-url="/thaw-app/Thaw/pull/1006/hovercard">#1006</a></li>
+<li><strong>A trigger can follow an external drive</strong>, so a drive's helper app shows while the drive is plugged in. Requested by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lucifercraig12345-create/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lucifercraig12345-create">@lucifercraig12345-create</a> in <a href="https://github.com/thaw-app/Thaw/issues/1053" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1053/hovercard">#1053</a>.</li>
+</ul>
+<h4>Layout</h4>
+<ul>
+<li><strong>Groups keep related items together.</strong> They move and hide as one, even across sections.</li>
+<li><strong>Spacers add a gap</strong> of the width you choose, with an optional fill.</li>
+<li><strong>Sort a section A to Z</strong> from its heading in Layout. <a href="https://github.com/thaw-app/Thaw/issues/936" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/936/hovercard">#936</a></li>
+<li><strong>Layout opens in its own window</strong>, and you can open an item straight from it. <a href="https://github.com/thaw-app/Thaw/issues/985" data-hovercard-type="pull_request" data-hovercard-url="/thaw-app/Thaw/pull/985/hovercard">#985</a></li>
+<li><strong>Opened items can stay a while.</strong> An item you open from search or the Thaw Bar can stay up to 30 seconds after its menu closes. Set it under Settings &gt; General &gt; After revealing. <a href="https://github.com/thaw-app/Thaw/issues/342" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/342/hovercard">#342</a></li>
+</ul>
+<h4>Modes and profiles</h4>
+<ul>
+<li><strong>Zen Mode</strong> closes every section with one hotkey. Hovering, automatic reveals and blinking icons can't open them until you turn it off.</li>
+<li><strong>Simple Mode</strong> shows Settings as one page. Switch it off to get everything back.</li>
+<li><strong>A profile can follow a Space</strong>, the way it already follows a display, and each Space can have its own menu bar look.</li>
+</ul>
+<h4>Appearance</h4>
+<ul>
+<li><strong>The Thaw Bar has its own shape, tint and border.</strong> Requested by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/kn666/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/kn666">@kn666</a> in <a href="https://github.com/thaw-app/Thaw/issues/248" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/248/hovercard">#248</a>.</li>
+<li><strong>A new wallpaper re-tints the menu bar right away</strong>, and the adaptive gradient uses the wallpaper's main colours instead of one average.</li>
+</ul>
+<h4>Smaller things</h4>
+<ul>
+<li><strong>Blinking icons can show themselves.</strong> An item that asks for attention briefly opens its section. Off by default, under Advanced.</li>
+<li><strong>A hotkey for automatic rehiding.</strong> By <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/nightah/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/nightah">@nightah</a> in <a href="https://github.com/thaw-app/Thaw/issues/665" data-hovercard-type="pull_request" data-hovercard-url="/thaw-app/Thaw/pull/665/hovercard">#665</a>.</li>
+<li><strong>Thaw can stay out of the Dock</strong> while you show and hide items. Turn on "Hide Dock icon when toggling the menu bar" in General. <a href="https://github.com/thaw-app/Thaw/issues/1128" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1128/hovercard">#1128</a></li>
+<li><strong>Remove a display you no longer use</strong> from the Per Display list. <a href="https://github.com/thaw-app/Thaw/issues/1054" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1054/hovercard">#1054</a></li>
+<li><strong>A Tools pane</strong> gathers the troubleshooting helpers.</li>
+<li><strong>Logs are easier to send.</strong> Diagnostic logs rotate on their own, by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/nk-tedo-001/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/nk-tedo-001">@nk-tedo-001</a> in <a href="https://github.com/thaw-app/Thaw/issues/974" data-hovercard-type="pull_request" data-hovercard-url="/thaw-app/Thaw/pull/974/hovercard">#974</a>. When an automatic move fails, Thaw saves a report you can attach to an issue. <a href="https://github.com/thaw-app/Thaw/issues/994" data-hovercard-type="pull_request" data-hovercard-url="/thaw-app/Thaw/pull/994/hovercard">#994</a></li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li><strong>Screen Recording is optional.</strong> An item Thaw can't capture shows as its app's icon, so the Thaw Bar, Layout and search work without the permission. Turn on "Show app icons instead of live previews" and the recording indicator goes away. <a href="https://github.com/thaw-app/Thaw/issues/1051" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1051/hovercard">#1051</a></li>
+<li><strong>Thaw stays out of your way while it moves items.</strong> It waits until you stop using the mouse and keyboard, leaves the pointer where you put it, and stops instead of trying the same move again and again. Your own drags always go through.</li>
+<li><strong>Thaw asks before every automatic app restart</strong> when "Confirm before relaunching apps" is on, not only after a display change. <a href="https://github.com/thaw-app/Thaw/issues/1098" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1098/hovercard">#1098</a></li>
+<li><strong>Hidden icons refresh as often as the slider says.</strong> By <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/camguillory/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/camguillory">@camguillory</a> in <a href="https://github.com/thaw-app/Thaw/issues/942" data-hovercard-type="pull_request" data-hovercard-url="/thaw-app/Thaw/pull/942/hovercard">#942</a>.</li>
+<li><strong>Displays has one Per display section</strong> instead of a block for each display, and marks displays with their own settings as Custom. <a href="https://github.com/thaw-app/Thaw/issues/1045" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1045/hovercard">#1045</a></li>
+<li><strong>"Dev Mode Flags" is now "Trigger Sources".</strong></li>
+<li><strong>Search, About and the welcome screens follow your text size.</strong></li>
+<li><strong>More of Thaw is translated</strong>, Russian most of all. Help at <a href="https://crowdin.com/project/thaw" rel="nofollow">crowdin.com/project/thaw</a>.</li>
+</ul>
+<h3>Fixed</h3>
+<h4>Spacing</h4>
+<ul>
+<li><strong>Changing the spacing no longer makes Spotlight disappear</strong> until you restart the Mac. Fixed by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/commanderk33n/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/commanderk33n">@commanderk33n</a> in <a href="https://github.com/thaw-app/Thaw/issues/720" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/720/hovercard">#720</a>.</li>
+<li><strong>Changing the spacing no longer quits system services</strong> that can't be started again, and an app that says no to quitting is left running. Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/wiper2/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/wiper2">@wiper2</a> in <a href="https://github.com/thaw-app/Thaw/issues/1070" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1070/hovercard">#1070</a>.</li>
+<li><strong>The spacing prompt stays away after you cancel it</strong>, and "Don't ask again" sticks. <a href="https://github.com/thaw-app/Thaw/issues/1180" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1180/hovercard">#1180</a></li>
+</ul>
+<h4>Order and moving</h4>
+<ul>
+<li><strong>Applying a profile no longer pushes your visible items into Hidden.</strong> Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/nk-tedo-001/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/nk-tedo-001">@nk-tedo-001</a> in <a href="https://github.com/thaw-app/Thaw/issues/1027" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1027/hovercard">#1027</a>.</li>
+<li><strong>Reordering items in Hidden works again.</strong> <a href="https://github.com/thaw-app/Thaw/issues/1074" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1074/hovercard">#1074</a>, <a href="https://github.com/thaw-app/Thaw/issues/1102" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1102/hovercard">#1102</a>, <a href="https://github.com/thaw-app/Thaw/issues/1133" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1133/hovercard">#1133</a></li>
+<li><strong>Items you drop into Always Hidden stay there.</strong> <a href="https://github.com/thaw-app/Thaw/issues/1190" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1190/hovercard">#1190</a></li>
+<li><strong>New apps land at the "New items" spot</strong>, not next to the Thaw icon. <a href="https://github.com/thaw-app/Thaw/issues/1069" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1069/hovercard">#1069</a></li>
+<li><strong>A revealed item shows on the right side of the arrow.</strong> <a href="https://github.com/thaw-app/Thaw/issues/1035" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1035/hovercard">#1035</a></li>
+<li><strong>A move right after an app updates no longer snaps back.</strong> Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Chamiu/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Chamiu">@Chamiu</a> in <a href="https://github.com/thaw-app/Thaw/issues/1058" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1058/hovercard">#1058</a>.</li>
+<li><strong>The iPhone Mirroring Live Activity can be moved.</strong> Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mi3suuu/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mi3suuu">@mi3suuu</a>.</li>
+<li><strong>The Thaw icon stays put when you reconnect a display</strong> on a Mac with a notch.</li>
+<li><strong>An item no longer gets stuck in one place</strong> after a rehide fails, and duplicate Control Center items on non-English Macs are cleaned up. Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/balaji-dutt/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/balaji-dutt">@balaji-dutt</a> in <a href="https://github.com/thaw-app/Thaw/issues/1079" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1079/hovercard">#1079</a> and <a href="https://github.com/thaw-app/Thaw/issues/1080" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1080/hovercard">#1080</a>.</li>
+<li><strong>Thaw no longer freezes its item list</strong> because of a window left behind by an earlier Thaw. <a href="https://github.com/thaw-app/Thaw/issues/1032" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1032/hovercard">#1032</a></li>
+</ul>
+<h4>Menu bar and Thaw Bar</h4>
+<ul>
+<li><strong>Clicking a menu like File no longer opens Hidden</strong> in apps such as Firefox. <a href="https://github.com/thaw-app/Thaw/issues/1028" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1028/hovercard">#1028</a></li>
+<li><strong>Scrolling on the Thaw icon opens Hidden.</strong> <a href="https://github.com/thaw-app/Thaw/issues/1073" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1073/hovercard">#1073</a></li>
+<li><strong>A quit app no longer leaves an icon in the Thaw Bar.</strong> <a href="https://github.com/thaw-app/Thaw/issues/1149" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1149/hovercard">#1149</a></li>
+<li><strong>The Thaw Bar shows the right icons on every display</strong>, light or dark, and keeps them. <a href="https://github.com/thaw-app/Thaw/issues/1065" data-hovercard-type="pull_request" data-hovercard-url="/thaw-app/Thaw/pull/1065/hovercard">#1065</a>, <a href="https://github.com/thaw-app/Thaw/issues/1046" data-hovercard-type="pull_request" data-hovercard-url="/thaw-app/Thaw/pull/1046/hovercard">#1046</a></li>
+<li><strong>No empty gap at launch</strong> when the Thaw icon is switched off. <a href="https://github.com/thaw-app/Thaw/issues/1043" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1043/hovercard">#1043</a></li>
+<li><strong>Clicking one of Apple's own items opens its menu.</strong></li>
+<li><strong>Thaw no longer acts on a menu bar macOS never finished drawing.</strong> Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ppocass/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ppocass">@ppocass</a> in <a href="https://github.com/thaw-app/Thaw/issues/1060" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1060/hovercard">#1060</a>.</li>
+</ul>
+<h4>Settings and search</h4>
+<ul>
+<li><strong>The search panel takes your first keystroke.</strong> <a href="https://github.com/thaw-app/Thaw/issues/969" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/969/hovercard">#969</a></li>
+<li><strong>Typing in the Settings search no longer freezes Thaw</strong>, and adding a spacer no longer crashes it. Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lucifercraig12345-create/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lucifercraig12345-create">@lucifercraig12345-create</a> in <a href="https://github.com/thaw-app/Thaw/issues/1055" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1055/hovercard">#1055</a> and <a href="https://github.com/thaw-app/Thaw/issues/1056" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1056/hovercard">#1056</a>.</li>
+<li><strong>The Smart rehide delay can be seen and changed.</strong> <a href="https://github.com/thaw-app/Thaw/issues/1049" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1049/hovercard">#1049</a></li>
+</ul>
+<h4>Memory and speed</h4>
+<ul>
+<li><strong>Thaw's memory grows more slowly over days of uptime.</strong> It redraws only what changed and stops capturing while your displays sleep. If you still see it grow, please comment on <a href="https://github.com/thaw-app/Thaw/issues/1129" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1129/hovercard">#1129</a>.</li>
+<li><strong>Icons refresh without slowing Thaw down</strong>, and a blink trigger watches only its own items.</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/thaw-app/updates/releases/download/2.1.0/Thaw_2.1.0.zip" length="13735774" type="application/octet-stream" sparkle:edSignature="X1T6ugBUg+DppmGWjafU26R04lykYoFMvkES15c7bikJhfu4z4GLR/GCkjFavTr6VJDuXNIdHjjYBNSdTAG0AQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/thaw-app/updates/releases/download/2.1.0/Thaw63-56.delta" sparkle:deltaFrom="56" length="8135022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="j7ehN2SfmnUCDxeEDuxePr2Bxo9P70vi1OI2rku3rZLaTbeekZ2RsTstEyl4c0T/O64exiGa700FARwP24dUCA=="/>
             </sparkle:deltas>
         </item>
         <item>
