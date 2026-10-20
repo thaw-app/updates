@@ -5,7 +5,6 @@
             <title>3.0.0-beta.3</title>
             <pubDate>Tue, 20 Oct 2026 01:31:03 +0000</pubDate>
             <link>https://github.com/thaw-app/Thaw/releases/tag/3.0.0-beta.3</link>
-            <sparkle:channel>beta</sparkle:channel>
             <sparkle:version>116</sparkle:version>
             <sparkle:shortVersionString>3.0.0-beta.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
