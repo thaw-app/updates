@@ -2,6 +2,72 @@
     <channel>
         <title>Thaw</title>
         <item>
+            <title>3.0.0-alpha.13</title>
+            <pubDate>Thu, 05 Nov 2026 22:11:25 +0000</pubDate>
+            <link>https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.13</link>
+            <sparkle:channel>alpha</sparkle:channel>
+            <sparkle:version>124</sparkle:version>
+            <sparkle:shortVersionString>3.0.0-alpha.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>macOS 27 only · Build 124</strong></p>
+<p>Scripts, Triggers and Widgets become modules you can switch on and off, and Settings is rebuilt on <a href="https://github.com/thaw-app/ThawUI">ThawUI</a>. Your settings, triggers, scripts and widget design carry over. By <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/diazdesandi/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/diazdesandi">@diazdesandi</a>.</p>
+<h3>New</h3>
+<ul>
+<li><strong>Modules.</strong> Settings › Extras switches optional parts of Thaw on and off. A module that's off doesn't run and leaves the sidebar. Scripts, Triggers and Widgets come first, and each starts on if you already used it.</li>
+</ul>
+<h3>Changed</h3>
+<h4>Modules</h4>
+<ul>
+<li><strong>Triggers, Scripts and Widgets run as small apps next to Thaw.</strong> Open each from its page in Settings. The widget icon moved there from Experiments.</li>
+<li><strong>Profile switches don't wait for a "before switching" script</strong> to finish before the layout changes. Scripts also run for the profile Thaw applies as it starts, and go with a profile you export or copy.</li>
+</ul>
+<h4>Thaw's icon</h4>
+<ul>
+<li><strong>The cube in Thaw's icon is even.</strong> Its top face no longer looks paler than its sides, and the shapes inside it share one flat cream.</li>
+</ul>
+<h4>Settings</h4>
+<ul>
+<li><strong>A new sidebar.</strong> Everyday pages come first, then your modules, then Extras, Privacy and Tools, with About last. The arrow keys move between pages.</li>
+<li><strong>Extras is a grid of cards,</strong> each with the part's icon, what it does and its switch. Profiles can be turned off there too, and your saved profiles are kept.</li>
+<li><strong>Some pages moved.</strong> Displays &amp; Spaces is now Displays. Automation became Triggers and Scripts, with thaw:// app permissions on Privacy and switching profiles by display or Space on Profiles. Experiments is gone, and its features sit on the pages they belong to with an Alpha or Beta badge. Old links to these pages still open.</li>
+<li><strong>Theme: System, Light, Dark or Black,</strong> for Settings and onboarding, in General › Language and theme. Black suits OLED displays and replaces "Black background in dark mode".</li>
+<li><strong>Fewer glass finishes.</strong> The Effect menu has Glass, with a Tint switch, and a Liquid Glass section with Edge, Sheer, Dim, Invert and Dynamic Glass. Saved looks keep how they looked.</li>
+<li><strong>The Thaw Bar's own look has a Corners slider,</strong> from square to round, instead of the Rounded corners switch.</li>
+<li><strong>Every Search style can rename and move items.</strong> The styles are now Detailed, Compact and Large, and all three share the bottom bar: ⌘E renames, ⌘K shows actions and ⌘1 to ⌘3 move an item.</li>
+<li><strong>Hide items again is one menu</strong> in Simple Mode and Visibility: Never, When I click elsewhere, When I switch apps or a delay.</li>
+<li><strong>One name for each thing.</strong> Settings and menus now agree, and Alpha and Beta features carry a badge. Reset Positions is now Rebuild Saved Layout, Hide again after is Keep opened items in the menu bar for, and Open hidden items in the menu bar is Show clicked items in the menu bar.</li>
+<li><strong>The Thaw Bar's Location choices say where it opens,</strong> and shortcuts have their own choice, When opened by a shortcut.</li>
+<li><strong>Displays has a Template tab</strong> with the Thaw Bar and spacing settings for new displays.</li>
+<li><strong>Spacing has one warning at the top,</strong> and Layout explains Apple's items in Known macOS 27 limitations.</li>
+<li><strong>The arrow keys step through What's New and Acknowledgements,</strong> and permission icons line up.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li><strong>App language shows System Default</strong> when you haven't picked a language.</li>
+<li><strong>Layout and Search show the symbol of Bluetooth and other system items</strong> that Thaw switched off, and one grey placeholder for items Thaw can't identify.</li>
+<li><strong>Screenshots no longer show the Finder menus you hid</strong> on the desktop.</li>
+<li><strong>Notes in the layout editor's right-click menu are dimmed,</strong> so they don't look like commands.</li>
+<li><strong>Links in the release notes open only over https,</strong> and a Wi-Fi sign-in page can't replace your saved release notes.</li>
+<li><strong>Recording a shortcut stops when you leave its page,</strong> and Shift-Escape cancels it.</li>
+<li><strong>The Settings window no longer shrinks</strong> right after it opens.</li>
+<li><strong>App icons in the Thaw Bar match the size</strong> of the item pictures beside them.</li>
+<li><strong>A cancelled click no longer waits</strong> for the pointer to stop.</li>
+<li><strong>Items with a blank name get their picture taken.</strong></li>
+<li><strong>Thaw's Time Machine icon keeps updating</strong> when Time Machine stops answering.</li>
+<li><strong>Layout picks up new items when macOS leaves out Thaw's own icon,</strong> and QQ and WeChat keep one item each as their unread count changes. Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Mujun05/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Mujun05">@Mujun05</a> in <a href="https://github.com/thaw-app/Thaw/issues/1449" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1449/hovercard">#1449</a> and fixed in <a href="https://github.com/thaw-app/Thaw/pull/1450" data-hovercard-type="pull_request" data-hovercard-url="/thaw-app/Thaw/pull/1450/hovercard">#1450</a>.</li>
+<li><strong>Applying a profile keeps your menu bar spacing,</strong> at startup and when you change Space or Focus. Fixed by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Omoeba/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Omoeba">@Omoeba</a> in <a href="https://github.com/thaw-app/Thaw/pull/1451" data-hovercard-type="pull_request" data-hovercard-url="/thaw-app/Thaw/pull/1451/hovercard">#1451</a>.</li>
+<li><strong>Thaw waits for the menu bar to settle before moving items,</strong> while you log in and when the menu bar moves to another display. Fixed by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/camguillory/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/camguillory">@camguillory</a> in <a href="https://github.com/thaw-app/Thaw/pull/1452" data-hovercard-type="pull_request" data-hovercard-url="/thaw-app/Thaw/pull/1452/hovercard">#1452</a>.</li>
+<li><strong>Capture Hidden Items no longer lists a kept picture as missing</strong> when macOS rebuilds the menu bar. Fixed by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Belligerently/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Belligerently">@Belligerently</a> in <a href="https://github.com/thaw-app/Thaw/pull/1448" data-hovercard-type="pull_request" data-hovercard-url="/thaw-app/Thaw/pull/1448/hovercard">#1448</a>.</li>
+<li><strong>Option-right-click on empty menu bar space opens Thaw's menu.</strong> On macOS 27.2 a plain right-click there opens Apple's menu instead.</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.13/Thaw_3.0.0-alpha.13.zip" length="12216219" type="application/octet-stream" sparkle:edSignature="o+ysY76ZLSzAit/xZlEZYKY3wfcJEWXVczRFH+4xpMYLsynlH+djODWBR5Woxzdp+fGkMEBw84gYim1cLl4ZDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.13/Thaw124-120.delta" sparkle:deltaFrom="120" length="3059222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wYAVHeE51MOX65q9xIDTgKsRo878wYiTyFYwxduJBsqjT7jhMYzI+DbZ6YRM3+TRGC0GaF+Ko+UkLDuDXSMSCA=="/>
+                <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.13/Thaw124-119.delta" sparkle:deltaFrom="119" length="3068894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Sex45QyImQ1DXksSp7MvxyyVvfzf+TBZuelncMPBE2aET42B1075TvEI21Y9+nlD0CaQz09fbnqjz/fbg9XRDA=="/>
+                <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.13/Thaw124-118.delta" sparkle:deltaFrom="118" length="3267002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rwinR3JxghpKD1kvqiDs/rEurxpB2AfJ35qwLNumvzxXmUpGvYtYPzLW/K+lSe6wOSYSvmYtoWymDn6v94PXBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.0.0-beta.6</title>
             <pubDate>Wed, 04 Nov 2026 07:29:12 +0000</pubDate>
             <link>https://github.com/thaw-app/Thaw/releases/tag/3.0.0-beta.6</link>
@@ -166,7 +232,8 @@
 <h3>Known issues</h3>
 <ul>
 <li><strong>On macOS 27.0.1, videos in a browser can't go full screen, and the menu bar can stay on screen over full-screen apps.</strong> This is a macOS 27 bug, not one in Thaw. Quitting MenuBarAgent in Activity Monitor fixes it until it comes back. Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/deadcoder0904/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/deadcoder0904">@deadcoder0904</a> in <a href="https://github.com/thaw-app/Thaw/issues/1404" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1404/hovercard">#1404</a>.</li>
-</ul>]]></description><enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-beta.5/Thaw_3.0.0-beta.5.zip" length="11390543" type="application/octet-stream" sparkle:edSignature="X/Te1kBfwvlBczXBLPAnMJFLZrlVKvnLg6V8bOJ5Uw9bpuYNnVlXLgppnsoozvtsGF2x92K5cPCA+MbQFrARCg=="/>
+</ul>]]></description>
+            <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-beta.5/Thaw_3.0.0-beta.5.zip" length="11390543" type="application/octet-stream" sparkle:edSignature="X/Te1kBfwvlBczXBLPAnMJFLZrlVKvnLg6V8bOJ5Uw9bpuYNnVlXLgppnsoozvtsGF2x92K5cPCA+MbQFrARCg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-beta.5/Thaw122-117.delta" sparkle:deltaFrom="117" length="1902450" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4ewRQav0DRWraQoCBLgL2Z2uG6IIM2UO6O8NcRH7qpRh1FXjDmttVImkCfJBB0X/WUpoM1YLBoeICCd3m9v+DA=="/>
                 <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-beta.5/Thaw122-116.delta" sparkle:deltaFrom="116" length="3960618" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5q4alebFQHainBMSZRNBLwArshKWzhaubI1kpGV9VE8aIDVQiwW+fuxIqbhEkyE5QVfw9qfT95ZUj6ht91vkAg=="/>
@@ -186,8 +253,7 @@
 <h3>Fixed</h3>
 <ul>
 <li><strong>Control Center controls you pinned to the menu bar stay where macOS puts them.</strong> Thaw counted a pinned control such as Screenshot, Timer or Calculator as a Visible item it could move. macOS places those controls itself, so each time you showed your hidden items Thaw shuffled the icons around them for a few seconds and then gave up. Thaw now leaves them alone, and Layout tells you to hold ⌘ and drag the control in the menu bar instead.</li>
-</ul>]]></description>
-            <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.12.1/Thaw_3.0.0-alpha.12.1.zip" length="11385441" type="application/octet-stream" sparkle:edSignature="Lxb7+tT2wQ6OUhss9voKCrk43a78n0jT6I/VBouDLOP//rYnG3ByIlo+BMxJo+B2tPzUw+S1sfkV+K1rWI4tDg=="/>
+</ul>]]></description><enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.12.1/Thaw_3.0.0-alpha.12.1.zip" length="11385441" type="application/octet-stream" sparkle:edSignature="Lxb7+tT2wQ6OUhss9voKCrk43a78n0jT6I/VBouDLOP//rYnG3ByIlo+BMxJo+B2tPzUw+S1sfkV+K1rWI4tDg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.12.1/Thaw120-119.delta" sparkle:deltaFrom="119" length="548406" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sLYYni+6vc59/8wNLxF3ROjG9nRU7FMVvSh1KuZkEW8RLvAH0zMXnhq80f/opdfd/0X69pHE8k5gfymu6My5CQ=="/>
                 <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.12.1/Thaw120-118.delta" sparkle:deltaFrom="118" length="1307278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="n9CDFROZYi8AbB91jwAG9TjjFHLyz9/z+Gfq+z7w/5qbl2s+ai1CBEAmhgbbHF74hDdfqyw4UUWQiqJleXeJBA=="/>
@@ -241,80 +307,11 @@
 <h4>Updates</h4>
 <ul>
 <li><strong>Switching between Alpha and Beta checks for updates right away.</strong> When Settings ran as a separate app, Thaw waited for its next daily check, so you had to press Check for Updates.</li>
-</ul>]]></description>
-            <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.12/Thaw_3.0.0-alpha.12.zip" length="11384102" type="application/octet-stream" sparkle:edSignature="WZzjCN/pwfqNP3SL7EdhVsVshdATIcu5bqdrpBKu5m4+Sewa1UJC/6Es64ifSUd6MYbbNaRIN6lUyxJxOcWhDg=="/>
+</ul>]]></description><enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.12/Thaw_3.0.0-alpha.12.zip" length="11384102" type="application/octet-stream" sparkle:edSignature="WZzjCN/pwfqNP3SL7EdhVsVshdATIcu5bqdrpBKu5m4+Sewa1UJC/6Es64ifSUd6MYbbNaRIN6lUyxJxOcWhDg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.12/Thaw119-118.delta" sparkle:deltaFrom="118" length="1289234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PsReC2khp4kBoxpKd4NPjM+3XBhJajXUBipfw418cKsSWcDlk7to41E1BPMPmLYbn3BuhWO46me25d1ucQoTCg=="/>
                 <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.12/Thaw119-115.delta" sparkle:deltaFrom="115" length="3975670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2hh2nkWkt+WwSxWvSViYejRGVRrg/JCHdj30Fbh8RCL4HpcNx1viKn/dyeeT/FoxPFbPxlyelaLVYUAGjbjQBA=="/>
                 <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.12/Thaw119-114.delta" sparkle:deltaFrom="114" length="4208674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gFGrLykQaBMQ4K5iTWeAQlDmfDuKUW+7lCq5F+Yko74FffbdtOBK1AajWJotHHX5cmlfLx16Kz477ntmHsonCw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>3.0.0-alpha.11</title>
-            <pubDate>Thu, 29 Oct 2026 04:10:07 +0000</pubDate>
-            <link>https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.11</link>
-            <sparkle:channel>alpha</sparkle:channel>
-            <sparkle:version>118</sparkle:version>
-            <sparkle:shortVersionString>3.0.0-alpha.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>macOS 27 only · Build 118</strong></p>
-<p>Most of the fixes in this release harden security, and they come from findings in a CodeRabbit deep scan.</p>
-<h3>New</h3>
-<ul>
-<li>You can skip menu bar visibility recovery when a removed app blocks it. Thaw keeps the recovery records as backups and leaves Native hiding off.</li>
-<li><strong>Settings can use a pure black background in dark mode.</strong> Turn on "Black background in dark mode" in General if you have an OLED display. Light mode looks the same as before, and the sidebar, toolbar and rows keep their glass.</li>
-</ul>
-<h3>Changed</h3>
-<ul>
-<li><strong>thaw://proxy-press needs settings access and an app you allowed,</strong> like thaw://set, since it presses another app's menu bar item.</li>
-<li><strong>thaw://toggle-thawbar needs settings access,</strong> like thaw://set and thaw://toggle, since it saves a setting.</li>
-<li><strong>thaw://dump-items needs settings access, and reports back only to the app that asked.</strong> It no longer opens web links.</li>
-<li><strong>An imported profile arrives with "Ask before restarting" on,</strong> and Thaw refuses a file with more than 100 profiles.</li>
-<li><strong>thawctl get says it can't return a value</strong> instead of sending a request whose reply goes nowhere. Read settings from the ThawCtl app or your own app's callback.</li>
-<li><strong>One "Hidden items" picker replaces the "Use Thaw Bar" and "Always show hidden items" switches.</strong> Choose On click, Thaw Bar or Always shown for each display and for the global template. Your saved choice carries over, and thaw://set works as before.</li>
-</ul>
-<h3>Fixed</h3>
-<ul>
-<li>Restored translations for menu bar controls, appearance, overflow and Zen Mode that had fallen back to English after labels or punctuation changed.</li>
-<li>Items moved to Hidden by automatic overflow remain available in Layout and the Thaw Bar when Native hiding removes them from the menu bar.</li>
-<li>The recovery warning no longer reports every failed restore as an unreadable Control Center setting.</li>
-<li><strong>Thaw no longer quits when a group folder's icon briefly has no window.</strong> On macOS 27 that happens after the menu bar rearranges, and Thaw read the placeholder number macOS gives such an icon as a window ID. Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/perlytiara/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/perlytiara">@perlytiara</a> in <a href="https://github.com/thaw-app/Thaw/issues/1397" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1397/hovercard">#1397</a>.</li>
-<li><strong>Relaunch Now can't run commands hidden in the name of the folder Thaw is in.</strong></li>
-<li><strong>An app you allowed to use thaw:// links is checked by its own signature,</strong> so another app can't borrow the permission by using the same name. An app allowed without a signing team is asked again when its code changes.</li>
-<li><strong>A shortcut with an impossible key code no longer makes Thaw quit,</strong> when a profile with one is applied or at the next launch. Thaw skips that shortcut.</li>
-<li><strong>Another app can't switch your profile by pretending a Focus started or ended.</strong> Thaw checks the Focus state itself before it switches.</li>
-<li><strong>Applying a profile no longer restarts menu bar apps without asking.</strong> With spacing set to ask first, the Profiles pane asks, and a profile applied from the menu, a shortcut, Shortcuts, a link, a Focus or a Space saves its spacing for when the apps next start.</li>
-<li><strong>The profile preview warns that applying will restart menu bar apps</strong> when the profile has its own spacing for the display you're on.</li>
-<li><strong>The profile preview shows when a profile only reorders items in a section,</strong> instead of saying nothing would change.</li>
-<li><strong>Timed rehide hides the section again even if you don't move the pointer</strong> after showing it with a shortcut or a click.</li>
-<li><strong>A system item's stand-in turned off while it was starting no longer keeps running.</strong></li>
-<li><strong>When a Focus ends, Thaw switches to the current Space's profile</strong> if it has one, as it does at launch, rather than the display's.</li>
-<li><strong>thawctl set accepts the key=value form its help shows,</strong> such as <code class="notranslate">thawctl set showOnHover=true</code>.</li>
-<li><strong>An app you add by hand under Automation can use thaw:// links.</strong> It's pinned to its own signature, like an app you allow from the prompt, instead of being listed but always refused.</li>
-<li><strong>A Focus profile stays on when Thaw can't read the Focus state.</strong> Only the system reporting that the Focus ended switches back.</li>
-<li><strong>Your saved menu bar order holds when icons go missing or overflow.</strong> An icon that briefly disappears keeps its place, icons behind the overflow arrows keep their order while you edit Visible, Always Hidden keeps its items while it's turned off, and items a profile doesn't mention stay where they were.</li>
-<li><strong>The Thaw Bar draws an app's icon at menu bar size</strong> when it has no picture of the item yet, instead of nearly twice the height of the icons around it on a notched display. Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/eisaias2000/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/eisaias2000">@eisaias2000</a> in <a href="https://github.com/thaw-app/Thaw/issues/1401" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1401/hovercard">#1401</a>.</li>
-<li><strong>Focus, Sound and other items macOS shows only some of the time go back to their place in your layout when they reappear,</strong> instead of staying where macOS put them. This was one way the Visible order drifted during the day in Automatic arrangement. Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/michaeljauk/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/michaeljauk">@michaeljauk</a> in <a href="https://github.com/thaw-app/Thaw/issues/1410" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1410/hovercard">#1410</a>.</li>
-<li><strong>Thaw can put your Visible order back when the bar has an item your layout doesn't name yet,</strong> such as Now Playing. That item stays where it is, and the others return to your order. Before, Thaw gave up after three tries. Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/michaeljauk/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/michaeljauk">@michaeljauk</a> in <a href="https://github.com/thaw-app/Thaw/issues/1410" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1410/hovercard">#1410</a>.</li>
-<li><strong><code class="notranslate">thaw://move-item</code> answers <code class="notranslate">notApplied</code> when the menu bar doesn't take a move to Visible.</strong> It used to answer <code class="notranslate">moved</code> once the order was saved. Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/michaeljauk/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/michaeljauk">@michaeljauk</a> in <a href="https://github.com/thaw-app/Thaw/issues/1410" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1410/hovercard">#1410</a>.</li>
-<li><strong>You can move items to the right of Siri on macOS 27.</strong> macOS doesn't pin Siri, so Thaw no longer treats it as fixed or moves it back to the end.</li>
-<li><strong>Search lists the same items as Layout,</strong> including hidden items macOS isn't drawing at the moment, and no longer lists items from apps you quit.</li>
-<li><strong>Dragging an item inside Hidden keeps your Always Hidden items in Always Hidden</strong> while that section is turned off.</li>
-<li><strong>Dropping a Visible item back where it was keeps the saved place of Visible items that are off screen</strong> at that moment.</li>
-<li><strong>Clock, Control Center and other system items you put in Hidden stay there</strong> after you switch away from Standard hiding and back. Thaw used to forget their place the first time it checked the bar with Standard hiding off.</li>
-<li><strong>Moving an item no longer pushes its neighbours into Hidden or Always Hidden,</strong> and no longer moves the item you dropped it next to when two items shared a position.</li>
-<li><strong>Thaw can restore your Visible order after every item in front of the Hidden divider has moved across it.</strong> Before, some items got no place and stayed where they were.</li>
-<li><strong>The screen recording indicator no longer blinks on and off during full-screen video.</strong> Thaw re-read the strip behind the menu bar every 20 seconds, which macOS counts as recording the video. It now skips that while the bar is hidden, and reads again only when a window under the bar moved. Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edhinnig/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edhinnig">@edhinnig</a> in <a href="https://github.com/thaw-app/Thaw/issues/1413" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1413/hovercard">#1413</a>.</li>
-</ul>
-<h3>Known issues</h3>
-<ul>
-<li><strong>On macOS 27.0.1, videos in a browser can't go full screen, and the menu bar can stay on screen over full-screen apps.</strong> This is a macOS 27 bug, not one in Thaw. Quitting MenuBarAgent in Activity Monitor fixes it until it comes back. Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/deadcoder0904/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/deadcoder0904">@deadcoder0904</a> in <a href="https://github.com/thaw-app/Thaw/issues/1404" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1404/hovercard">#1404</a>.</li>
-</ul>]]></description>
-            <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.11/Thaw_3.0.0-alpha.11.zip" length="11370371" type="application/octet-stream" sparkle:edSignature="zfB+05/tVxvBN/G4C+mMZeM5fbUplS7qk/EN5oABdq1P0JIiS01oj3enXgO93Imwc13z4RVHPIf1QCJM3dYuDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.11/Thaw118-115.delta" sparkle:deltaFrom="115" length="3868478" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KFmZ1djxKTVpJFPkS5tbZv40wtOjZquGVGDBQgn+ntOtUKuJbY/PPgoe02mik2BcjI2gwqrelZGvkKmy9VfiBA=="/>
-                <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.11/Thaw118-114.delta" sparkle:deltaFrom="114" length="4102542" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ypkIPlUviDbcvQan9VEI26MfPgfshGh1C6WNEt707Hm7wyPmVUqmvDWtikj6jVgXfcs1lua0VMf2S9/JXCvLCg=="/>
-                <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-alpha.11/Thaw118-113.delta" sparkle:deltaFrom="113" length="4515898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="w8xBDtCW6V1jYWhlMuvGDaNkk3xS+HZjBQxCWP+qv6+xdTsvs9vvI38HxuhA5SzzWCzBbGvpPTaSJP0VixevCQ=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -438,7 +435,8 @@
 <li><strong>On macOS 27.0.1, ⌘-dragging the microphone or screen recording indicator makes macOS's menu bar process restart</strong> about a minute later, with or without Thaw. Afterwards some icons can come back out of order; dragging them into place on the menu bar fixes it. The app doing the recording can crash too; OBS did in one report. A Control Center control such as Timers can stay missing after the restart; opening Edit Controls brings it back. macOS 27.2 doesn't have this problem. Reported by Keylag.</li>
 <li><strong>With about 240 apps running, Thaw can't read the whole menu bar in time,</strong> so icons can go missing from Layout for a moment or come back in a different order. Reported by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/joaofrgomes/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/joaofrgomes">@joaofrgomes</a> in <a href="https://github.com/thaw-app/Thaw/issues/1367" data-hovercard-type="issue" data-hovercard-url="/thaw-app/Thaw/issues/1367/hovercard">#1367</a>.</li>
 <li><strong>Zoom and some other apps can't be hidden with the Native hiding method,</strong> because macOS's list in System Settings &gt; Menu Bar has no entry for them. They stay on the menu bar.</li>
-</ul>]]></description><enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-beta.4/Thaw_3.0.0-beta.4.zip" length="11085494" type="application/octet-stream" sparkle:edSignature="JjDqcf9/8EmOf6rYBIRHoXSuwIn3z15aOVh+aXe65CmSYx2JJHYgSlnrvAlSy+UY2Yvx7M3lWSNDt4Ctuc6UAA=="/>
+</ul>]]></description>
+            <enclosure url="https://github.com/thaw-app/updates/releases/download/3.0.0-beta.4/Thaw_3.0.0-beta.4.zip" length="11085494" type="application/octet-stream" sparkle:edSignature="JjDqcf9/8EmOf6rYBIRHoXSuwIn3z15aOVh+aXe65CmSYx2JJHYgSlnrvAlSy+UY2Yvx7M3lWSNDt4Ctuc6UAA=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/thaw-app/updates/releases/download/2.2.0-beta.1/Thaw117-116.delta" sparkle:deltaFrom="116" length="3369530" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Uvh3AkpZKhH+wsNhsVJp/pRq5X7sC6Q88lcnM0Fjj4UlpTC921Kod39Py00y9awheR46Kl27e/G9m4nU8B3pAQ=="/>
                 <enclosure url="https://github.com/thaw-app/updates/releases/download/2.2.0-beta.1/Thaw117-112.delta" sparkle:deltaFrom="112" length="4387238" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ov5F2EcRLL0hUK9Rnh9ycniiqbuyiEv28O7VFGzXMklMXv6oDR/xxhjqkYf57zIXyChQoi5/a29LExO0UnKkDw=="/>
